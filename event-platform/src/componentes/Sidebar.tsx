@@ -2,13 +2,14 @@ import { Lesson } from "./Lesson";
 import { gql, useQuery } from '@apollo/client'
 
 const GET_LESSONS_QUERY = gql `
-      query {
+     query  {
         lessons(orderBy: availableAt_ASC, stage: PUBLISHED) {
         id
         lessonType
         title
         slug
-  }
+        availableAt
+    }
 }
 
 `
