@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        blur: 'url(/src/assets/blur.png)'
+      },
       fontFamily: {
         sans: 'Roboto, sans-serif' // reload font Robot, if not cant reload this font loading any font
       },
