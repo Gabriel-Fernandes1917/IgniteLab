@@ -8,7 +8,7 @@ generates:
     plugins:
       - typescript
       - typescript-operations
-      - typed-react-apollo
+      - typescript-react-apollo
     config:
       reactApolloVersion: 3
       withHooks: true
